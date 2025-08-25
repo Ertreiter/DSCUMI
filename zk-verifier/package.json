@@ -1,0 +1,26 @@
+{
+  "name": "zk-verifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@matterlabs/hardhat-zksync-deploy": "^1.8.0",
+    "@matterlabs/hardhat-zksync-ethers": "^1.4.0",
+    "@matterlabs/hardhat-zksync-solc": "^1.5.1",
+    "@matterlabs/hardhat-zksync-verify": "^1.9.0",
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "hardhat": "^2.26.3",
+    "zksync-ethers": "^6.20.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "ethers": "^6.15.0",
+    "zksync-web3": "^0.17.1"
+  }
+}
